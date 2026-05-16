@@ -50,7 +50,7 @@ Experiments on the UCI EMG Gestures dataset (36 subjects, 6 gestures, 8 channels
 
 **Best result:** 84.7% test accuracy with handcrafted features. Gestures 1, 4, and 5 reached 89–93% F1. Gestures 3 and 6 were the most challenging at 72–79% F1.
 
-**Raw signal result:** 29.2% test accuracy with flattened 3200-feature representation. This was likely caused by a rank-deficient, singular within-class scatter matrix S_W, which required sklearn's internal regularization to approximate invertibility.
+**Raw signal result:** 29.2% test accuracy with flattened 3200-feature representation.
 
 **Issues:** Remaining confusion concentrated in gesture pairs (3 vs. 6 and 4 vs. 5).
 
